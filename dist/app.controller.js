@@ -19,6 +19,12 @@ let AppController = class AppController {
     getHello() {
         return this.appService.getHello();
     }
+    sayHello() {
+        return `<div>ㅎㅎ</div>`;
+    }
+    showAll() {
+        return this.appService.getElementOne() + this.appService.getElementTwo();
+    }
 };
 __decorate([
     common_1.Get(),
@@ -26,6 +32,18 @@ __decorate([
     __metadata("design:paramtypes", []),
     __metadata("design:returntype", String)
 ], AppController.prototype, "getHello", null);
+__decorate([
+    common_1.Get("/hello"),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", []),
+    __metadata("design:returntype", String)
+], AppController.prototype, "sayHello", null);
+__decorate([
+    common_1.Get("/mix"),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", []),
+    __metadata("design:returntype", String)
+], AppController.prototype, "showAll", null);
 AppController = __decorate([
     common_1.Controller(),
     __metadata("design:paramtypes", [app_service_1.AppService])
