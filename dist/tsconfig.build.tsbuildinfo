@@ -1176,6 +1176,11 @@
         "signature": "95b5a3078fdc51508d5d9cde59a1dd9525b53fd42dc12265a55261fd415d3274",
         "affectsGlobalScope": false
       },
+      "../src/app.controller.ts": {
+        "version": "61dc59d997e34e6d118a82dab658b0fe83d23a0c8a7e809acb0212399e924128",
+        "signature": "2254841f23478643d6a1ad5d4e4e06075bedd8f93b2770edc9453eb31221ab92",
+        "affectsGlobalScope": false
+      },
       "../src/movies/entities/movie.entity.ts": {
         "version": "1f38c3fb77789383fa856e88210e594ecb0196db83dfe7263e99f42bb8fe11ca",
         "signature": "286eaff9a1ba5c11aff64b850eff0480e3aff9563647e188bd3e15a9bb831b81",
@@ -1821,8 +1826,13 @@
         "signature": "52ab6f53b2ad74cc11cc2883e3e7a0c0d2e690218e729a89ac9a9902580e5f73",
         "affectsGlobalScope": false
       },
+      "../src/movies/movies.module.ts": {
+        "version": "ff00440794d82ae40a6634cfd831e0972817ec7fb3577516a6819d243c858803",
+        "signature": "990a601f7ebccf19274633a3fd86b0c2df81eeef4631d577f18568fc8d7f2d30",
+        "affectsGlobalScope": false
+      },
       "../src/app.module.ts": {
-        "version": "a8fc6c07edec9c6213e318b6cc00cc57764a3f296d4bda43635d7b4aa971cd5f",
+        "version": "337cc6215cfa5d51c2e8609ce783c76d305c8015c39a4feb2eb0ddf67bdeff2a",
         "signature": "9fc7f7b6ad854404973b8cba8e6d883f758237991968e9a3965d716d46f1da88",
         "affectsGlobalScope": false
       },
@@ -4464,10 +4474,13 @@
       "../node_modules/rxjs/internal/util/pipe.d.ts": [
         "../node_modules/rxjs/internal/types.d.ts"
       ],
+      "../src/app.controller.ts": [
+        "../node_modules/@nestjs/common/index.d.ts"
+      ],
       "../src/app.module.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
-        "../src/movies/movies.controller.ts",
-        "../src/movies/movies.service.ts"
+        "../src/app.controller.ts",
+        "../src/movies/movies.module.ts"
       ],
       "../src/main.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
@@ -4486,6 +4499,11 @@
         "../node_modules/@nestjs/common/index.d.ts",
         "../src/movies/dto/create-movie.dto.ts",
         "../src/movies/entities/movie.entity.ts",
+        "../src/movies/movies.service.ts"
+      ],
+      "../src/movies/movies.module.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../src/movies/movies.controller.ts",
         "../src/movies/movies.service.ts"
       ],
       "../src/movies/movies.service.ts": [
@@ -6874,12 +6892,14 @@
       "../node_modules/typescript/lib/lib.esnext.intl.d.ts",
       "../node_modules/typescript/lib/lib.scripthost.d.ts",
       "../node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
+      "../src/app.controller.ts",
       "../src/app.module.ts",
       "../src/main.ts",
       "../src/movies/dto/create-movie.dto.ts",
       "../src/movies/dto/update-movie.dto.ts",
       "../src/movies/entities/movie.entity.ts",
       "../src/movies/movies.controller.ts",
+      "../src/movies/movies.module.ts",
       "../src/movies/movies.service.ts"
     ]
   },
