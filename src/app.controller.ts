@@ -1,10 +1,9 @@
-import { Controller, Get } from "@nestjs/common";
+import { Controller, Get } from '@nestjs/common';
 
-@Controller("")
+@Controller('')
 export class AppController {
   @Get()
   home() {
-    return "Welcome to my movie api";
+    return 'Welcome to my movie api';
   }
-
 }

@@ -1,10 +1,9 @@
-import { Injectable, NotFoundException } from "@nestjs/common";
-import { Movie } from "./entities/movie.entity";
-import { CreateMovieDto } from "./dto/create-movie.dto";
+import { Injectable, NotFoundException } from '@nestjs/common';
+import { Movie } from './entities/movie.entity';
+import { CreateMovieDto } from './dto/create-movie.dto';
 
 @Injectable()
 export class MoviesService {
-
   private movies: Movie[] = [];
 
   getAll(): Movie[] {
@@ -12,7 +11,7 @@ export class MoviesService {
   }
 
   getOne(id: number): Movie {
-    const movie = this.movies.find(movie => movie.id === id);
+    const movie = this.movies.find((movie) => movie.id === id);
     if (!movie) {
       throw new NotFoundException();
     }
@@ -29,5 +28,4 @@ export class MoviesService {
     //.. 여기는그냥 비지니스 로직처리라 굳이 안함
     return true;
   }
-
 }

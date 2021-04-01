@@ -1182,8 +1182,8 @@
         "affectsGlobalScope": false
       },
       "../src/movies/entities/movie.entity.ts": {
-        "version": "1f38c3fb77789383fa856e88210e594ecb0196db83dfe7263e99f42bb8fe11ca",
-        "signature": "286eaff9a1ba5c11aff64b850eff0480e3aff9563647e188bd3e15a9bb831b81",
+        "version": "3bcd09e279afba7f7cd868b2cdad40397539304c28eef12d6cb14efd4742a8f8",
+        "signature": "dbfbec719e8efb72c66465606b82a661350572e7a75c3fc65386e804d1f57536",
         "affectsGlobalScope": false
       },
       "../node_modules/class-validator/types/validation/validationerror.d.ts": {
@@ -1812,28 +1812,28 @@
         "affectsGlobalScope": false
       },
       "../src/movies/dto/create-movie.dto.ts": {
-        "version": "8ddcbd4c0e7b2ad7c488b6e81896d7a008da579abb8655808d99f6abc2236590",
-        "signature": "ebb9e567cd58ab7366d4d8c95790ba3b523f1c74a2205da95ddbdda7d063f64d",
+        "version": "42c80bb8a19049c6824f068ad6c662558d850bae9e100bd2d7dd98ee0f8d6977",
+        "signature": "81ad61d185688af30762679ba2f18d877d3a208ec720467e97fb01afca965f5f",
         "affectsGlobalScope": false
       },
       "../src/movies/movies.service.ts": {
         "version": "8d9de96afab6556049c49ce8a3e9b9ec22c51fdd58d6583787b99151e4e1b765",
-        "signature": "bcfd006f6b7563b0d243e749962f7945f71ef44646b2f8329c4655703bbf14d7",
+        "signature": "ce836125074784627554c75fe073d7d65e469af39b105afd7457fc28eab95b7c",
         "affectsGlobalScope": false
       },
       "../src/movies/movies.controller.ts": {
         "version": "afd441ed595ad05f17e580124cd44a2aa0a33b572fafc3483581881902e8944b",
-        "signature": "52ab6f53b2ad74cc11cc2883e3e7a0c0d2e690218e729a89ac9a9902580e5f73",
+        "signature": "54dac82c3df5d6bfd3e53aca6b5f3af9b352a462310241c85bcfb582aa4bd496",
         "affectsGlobalScope": false
       },
       "../src/movies/movies.module.ts": {
         "version": "ff00440794d82ae40a6634cfd831e0972817ec7fb3577516a6819d243c858803",
-        "signature": "990a601f7ebccf19274633a3fd86b0c2df81eeef4631d577f18568fc8d7f2d30",
+        "signature": "e139e90428b9edd3df90a4dd7aac1359d6e41ab588db1f53ddbd02b8c8673e59",
         "affectsGlobalScope": false
       },
       "../src/app.module.ts": {
-        "version": "337cc6215cfa5d51c2e8609ce783c76d305c8015c39a4feb2eb0ddf67bdeff2a",
-        "signature": "9fc7f7b6ad854404973b8cba8e6d883f758237991968e9a3965d716d46f1da88",
+        "version": "7f66b84edaac49dfe25cafc4c9d296fbd289ac2f13e9620224cb637aa62d73c4",
+        "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644",
         "affectsGlobalScope": false
       },
       "../node_modules/@nestjs/core/adapters/http-adapter.d.ts": {
@@ -2017,8 +2017,8 @@
         "affectsGlobalScope": false
       },
       "../src/main.ts": {
-        "version": "f634656dbbef007c55ca9b33b31c72e85b915ff988d1b1fadfd92bafa19ad1f4",
-        "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6",
+        "version": "52bdb2de878ea1af87b958572a7087d80999a6e1829b2f0287e07b7c516b62f5",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
         "affectsGlobalScope": false
       },
       "../node_modules/@nestjs/mapped-types/dist/mapped-type.interface.d.ts": {
@@ -2062,8 +2062,8 @@
         "affectsGlobalScope": false
       },
       "../src/movies/dto/update-movie.dto.ts": {
-        "version": "76f803d7a31cbe4a86303ca27df8d397c1a308327d82a6d23ce8a214fff7473a",
-        "signature": "ab87b8ed58e6ac56e6922b750f70e860ca28185ae10660fbdfe9835fa845544f",
+        "version": "67c52810549b1d9001a48f8def59aedfbcfa9025bca4fa57e0da95f570f296de",
+        "signature": "2a02cf608a43e85b7124b8d82d7dd0d54cedd2a0762db644a8459e5da1b9c553",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/anymatch/index.d.ts": {
@@ -6892,15 +6892,7 @@
       "../node_modules/typescript/lib/lib.esnext.intl.d.ts",
       "../node_modules/typescript/lib/lib.scripthost.d.ts",
       "../node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
-      "../src/app.controller.ts",
-      "../src/app.module.ts",
-      "../src/main.ts",
-      "../src/movies/dto/create-movie.dto.ts",
-      "../src/movies/dto/update-movie.dto.ts",
-      "../src/movies/entities/movie.entity.ts",
-      "../src/movies/movies.controller.ts",
-      "../src/movies/movies.module.ts",
-      "../src/movies/movies.service.ts"
+      "../src/app.controller.ts"
     ]
   },
   "version": "4.2.3"
