@@ -13,7 +13,7 @@ exports.AppController = void 0;
 const common_1 = require("@nestjs/common");
 let AppController = class AppController {
     home() {
-        return "Welcome to my movie api";
+        return 'Welcome to my movie api';
     }
 };
 __decorate([
@@ -23,7 +23,7 @@ __decorate([
     __metadata("design:returntype", void 0)
 ], AppController.prototype, "home", null);
 AppController = __decorate([
-    common_1.Controller("")
+    common_1.Controller('')
 ], AppController);
 exports.AppController = AppController;
 //# sourceMappingURL=app.controller.js.map
