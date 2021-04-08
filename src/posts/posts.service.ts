@@ -1,6 +1,3 @@
-/**
- * 계정 서비스
- */
 import { Injectable } from '@nestjs/common';
 import { getRepository } from 'typeorm';
 import { Post } from './entities/post.entity';
@@ -11,9 +8,8 @@ export class PostsService {
     //
   }
 
-  async findOne(): Promise<any> {
+  async findOne(): Promise<Post | undefined> {
     const post = await getRepository(Post).findOne();
-    console.log(post);
     return post;
   }
 }

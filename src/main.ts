@@ -3,6 +3,7 @@ import { AppModule } from './app.module';
 import { ValidationPipe } from '@nestjs/common';
 import { createConnection, Connection, ConnectionOptions } from 'typeorm';
 import { Post } from './posts/entities/post.entity';
+import { User } from './users/entities/user.entity';
 
 async function bootstrap() {
   const connectionConfig: ConnectionOptions = {
@@ -12,7 +13,7 @@ async function bootstrap() {
     username: 'postgres',
     password: 'postgres',
     database: 'api',
-    entities: [Post],
+    entities: [Post, User],
   };
 
   const connection = await createConnection(connectionConfig);

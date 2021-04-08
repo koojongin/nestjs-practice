@@ -1,6 +1,6 @@
 import { IsNumber, IsOptional, IsString } from 'class-validator';
 
-export class CreateMovieDto {
+export class CreateUserDto {
   @IsString()
   readonly title: string;
 
