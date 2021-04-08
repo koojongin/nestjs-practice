@@ -6,12 +6,21 @@ import { Post } from './posts/entities/post.entity';
 import { User } from './users/entities/user.entity';
 
 async function bootstrap() {
-  const connectionConfig: ConnectionOptions = {
+  /*const connectionConfig: ConnectionOptions = {
     type: 'postgres',
     host: 'localhost',
     port: 5432,
     username: 'postgres',
     password: 'postgres',
+    database: 'api',
+    entities: [Post, User],
+  };*/
+  const connectionConfig: ConnectionOptions = {
+    type: 'postgres',
+    host: 'localhost',
+    port: 5433,
+    username: 'postgres',
+    password: '1234',
     database: 'api',
     entities: [Post, User],
   };
